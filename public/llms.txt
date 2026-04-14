@@ -1,0 +1,34 @@
+# Text Diff Viewer
+
+> A free, 100% client-side web tool for comparing text differences in real-time.
+
+## What it does
+
+Text Diff Viewer lets you paste two texts side by side and instantly see what changed between them. No server, no signup, no data sent anywhere — everything runs in the browser.
+
+## Key features
+
+- **Unified view** (Git-style single column) and **Side-by-Side view** (two-column comparison)
+- **Granularity options**: line-level, word-level, or character-level diffing
+- **Normalization**: ignore case, ignore extra whitespace
+- **Line numbers**: toggle on/off for easier navigation
+- **Collapse unchanged**: hide large identical blocks to focus on differences
+- **Export**: copy diff as plain text or download as a self-contained HTML file
+- **PWA support**: works offline after first load
+- **Multilingual**: English and Portuguese (Brazil)
+
+## Use cases
+
+- Comparing code snippets before and after a change
+- Checking revisions in documents, emails, or essays
+- Reviewing configuration file changes
+- Spotting differences between two versions of any text
+
+## Technology
+
+Built with Next.js 13 (App Router), TypeScript, Tailwind CSS, and the `diff` library for accurate comparison.
+
+## Links
+
+- App: https://diff-viewer.vercel.app
+- Source: https://github.com/obrenoalvim/diffViewer
